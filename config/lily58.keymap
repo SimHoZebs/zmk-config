@@ -20,13 +20,13 @@
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
-            display-name = "Base";
+            display-name = "0";
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                          &kp N6     &kp N7    &kp N8     &kp N9   &kp N0    &kp GRAVE
 &kp TAB    &kp Q   &kp W   &kp E     &kp R   &kp T                           &kp Y      &kp U     &kp I      &kp O    &kp P     &kp MINUS
 &kp LCTRL  &kp A   &kp S   &kp D     &kp F   &kp G                           &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z   &kp X   &kp C     &kp V   &kp B   &kp LBKT     &kp RBKT   &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                           &kp LALT  &to 1   &to 2   &kp SPACE    &kp ENTER  &kp SPACE  &kp BSPC  &kp RGUI
+                           &kp LALT  &to 2   &to 1   &kp SPACE    &kp ENTER  &kp SPACE  &kp BSPC  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -40,7 +40,7 @@
             // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            display-name = "Raise";
+            display-name = "1";
             bindings = <
 &trans  &kp F1        &kp F2  &kp F3   &kp F4   &kp F5                       &kp F6       &kp F7     &kp F8            &kp F9             &kp F10    &kp DELETE
 &trans  &kp N1        &kp N2  &kp N3   &kp N4   &kp N5                       &kp N6       &kp N7     &kp N8            &kp N9             &kp N0     &kp PRINTSCREEN
@@ -60,7 +60,7 @@
             // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
             //                     |      |      |      |        |  |       |      |       |       |
 
-            display-name = "Lower";
+            display-name = "2";
             bindings = <
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                        &trans     &trans     &trans           &trans            &trans             &trans
 &trans  &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                              &kp F7     &kp F8     &kp F9           &kp F10           &kp F11            &kp F12
