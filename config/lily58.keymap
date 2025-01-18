@@ -71,10 +71,10 @@
 
             display-name = "2";
             bindings = <
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &none     &kp F2    &kp F3   &none      &tog 0     &kp DEL
-&trans  &kp N7        &kp N8        &kp N9        &none         &none                                  &kp F4    &kp F5    &kp F6   &none      &none      &tog 0
-&trans  &kp N4        &kp N5        &kp N6        &none         &none                                  &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT  &kp PG_UP  &kp HOME
-&trans  &kp N1        &kp N2        &kp N3        &kp N0        &trans        &soft_off    &bt BT_CLR  &kp F10   &kp F11   &kp F12  &none      &kp PG_DN  &kp END
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                           &none     &kp F2    &kp F3        &none      &tog 0     &kp DEL
+&trans  &kp N7        &kp N8        &kp N9        &none         &none                                  &kp F4    &trans    &kp UP_ARROW  &none      &none      &tog 0
+&trans  &kp N4        &kp N5        &kp N6        &none         &none                                  &kp LEFT  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PG_UP  &kp HOME
+&trans  &kp N1        &kp N2        &kp N3        &kp N0        &trans        &soft_off    &bt BT_CLR  &kp F10   &kp F11   &kp F12       &none      &kp PG_DN  &kp END
                                     &trans        &trans        &trans        &trans       &trans      &trans    &trans    &trans
             >;
 
