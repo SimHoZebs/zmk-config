@@ -100,9 +100,9 @@
             display-name = "2";
             bindings = <
 &trans  &bt_0        &bt_1        &bt_2        &bt_3        &bt_4                                &kp F13   &kp F14   &kp F15       &kp F16    &kp F17    &kp F18
-&trans  &trans       &trans       &trans       &none        &none                                &trans    &trans    &trans        &none      &none      &tog 0
+&trans  &trans       &trans       &trans       &none        &none                                &trans    &trans    &trans        &bootloader &sys_reset &tog 0
 &trans  &trans       &trans       &trans       &none        &none                                &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp PG_UP  &kp HOME
-&trans  &trans       &trans       &trans       &trans       &trans        &soft_off    &bt BT_CLR  &trans    &kp LEFT  &kp DOWN      &kp RIGHT  &kp PG_DN  &kp END
+&trans  &trans       &trans       &trans       &sys_reset   &bootloader   &trans       &bt BT_CLR  &trans    &kp LEFT  &kp DOWN      &kp RIGHT  &kp PG_DN  &kp END
                                   &trans       &trans       &trans        &trans       &trans      &trans    &trans    &trans
             >;
 
