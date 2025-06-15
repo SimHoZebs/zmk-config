@@ -18,31 +18,31 @@
         bt_0: bt_profile_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0 &to DEFAULT>;
+            bindings = <&bt BT_SEL 0 &to 0>;
         };
 
         bt_1: bt_profile_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1 &to MAC>;
+            bindings = <&bt BT_SEL 1 &to 3>;
         };
 
         bt_2: bt_profile_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 2 &to DEFAULT>;
+            bindings = <&bt BT_SEL 2 &to 0>;
         };
 
         bt_3: bt_profile_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 3 &to DEFAULT>;
+            bindings = <&bt BT_SEL 3 &to 0>;
         };
 
         bt_4: bt_profile_4 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 4 &to DEFAULT>;
+            bindings = <&bt BT_SEL 4 &to 0>;
         };
     };
 
